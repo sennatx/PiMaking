@@ -24,4 +24,9 @@ instructions to get a new nodejs package
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+npm install underscore
+cd 
 
+
+sudo apt-get install paprefs  //pulseaudio preferences....
+** note user pi working for pulse audio / bluetooth, but not root.....
