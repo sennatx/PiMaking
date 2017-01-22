@@ -1,4 +1,6 @@
 ?(future) can we set IPv4 in config prior to install?
+copy 99force-ipv4 file to /etc/apt/apt.conf.d 
+
 set keyboard to US...
 
 sudo apt-get -o Acquire::ForceIPv4=true update
@@ -17,4 +19,9 @@ sudo apt-get -o Acquire::ForceIPv4=true install npm
 npm install node-gyp
 
 npm install
+
+instructions to get a new nodejs package
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 
