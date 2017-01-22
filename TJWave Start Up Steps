@@ -1,0 +1,20 @@
+?(future) can we set IPv4 in config prior to install?
+set keyboard to US...
+
+sudo apt-get -o Acquire::ForceIPv4=true update
+sudo apt-get -o Acquire::ForceIPv4=true dist-upgrade
+
+sudo rpi-update  //update firmware
+
+sudo apt-get -o Acquire::ForceIPv4=true install alsa-base alsa-utils
+sudo apt-get -o Acquire::ForceIPv4=true install libasound2-dev
+sudo apt-get autoremove
+
+git clone https://github.com/sennt18/tjwave.git
+
+sudo apt-get -o Acquire::ForceIPv4=true install npm
+
+npm install node-gyp
+
+npm install
+
